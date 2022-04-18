@@ -1,0 +1,15 @@
+{
+  "name": "roomchat",
+  "version": "1.0.0",
+  "description": "chat app with public rooms",
+  "main": "script.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "Bhavdeep",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "socket.io": "^2.2.0"
+  }
+}
