@@ -41,7 +41,7 @@
 		    <div class="form">
 		      <label for="name">Name</label>
 		      <form action="{% url 'home' %}" method="POST">
-            {% csrf_token %}
+          {% csrf_token %}
 		      <input type="text" name="name" id="name" />
 		    
 		      <input type="submit" id="submit" value="Submit" >
