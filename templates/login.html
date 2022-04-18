@@ -40,7 +40,7 @@
 		    </svg>
 		    <div class="form">
 		      <label for="name">Name</label>
-		      <form action="http://127.0.0.1:8000/home/" method="POST">
+		      <form action="{% url 'home' %}" method="POST">
             {% csrf_token %}
 		      <input type="text" name="name" id="name" />
 		    
